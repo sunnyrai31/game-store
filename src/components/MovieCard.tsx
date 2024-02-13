@@ -2,7 +2,7 @@ import { Fragment } from "react";
 
 function MovieCardComponent({ MovieDetails }: { MovieDetails: any }) {
     const prepareMovieCardTemplate = () => {
-        const { _id, primaryImage, titleType, titleText, releaseYear } = MovieDetails;
+        const { _id, primaryImage, titleText, releaseYear } = MovieDetails;
         const imageSize = {
             width: "20rem",
         };
