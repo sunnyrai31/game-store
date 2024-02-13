@@ -47,7 +47,9 @@ function App() {
 
   return (
     <>
-      <Header></Header>
+      <div className="sticky-header">
+        <Header></Header>
+      </div>
       <div className="d-flex text-white full-height">
         <div className="left-panel">
           <LeftPanelComponent genres={genres}></LeftPanelComponent>
