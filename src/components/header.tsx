@@ -4,7 +4,7 @@ function Header() {
       <nav className="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Game Store
+            Movie Store
           </a>
 
           <form className="d-flex w-75" role="search">

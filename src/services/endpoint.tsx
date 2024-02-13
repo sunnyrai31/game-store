@@ -6,6 +6,10 @@ export const ENDPOINTS = {
     "fetchGenres": {
         method: 'GET',
         url: '/titles/utils/genres',
+    },
+    "fetchTitle": {
+        method: 'GET',
+        url: 'titles'
     }
 }
 export const COMMON_HEADERS = {
