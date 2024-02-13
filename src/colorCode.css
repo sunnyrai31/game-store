@@ -1,0 +1,12 @@
+:root {
+    --bg-dark: #343a40;
+    --bg-light: #f8f9fa;
+    --text-primary: #000000;
+    --text-secondary: #6c757d;
+    --bg-white: #ffffff;
+    --bg-dark-rgb: #212529;
+    --scrollbar-thumb: #6c757d;
+    /* Thumb color for dark theme */
+     --scrollbar-track: #343a40;
+    /* Add more color variables as needed */
+}
