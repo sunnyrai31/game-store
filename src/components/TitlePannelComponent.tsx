@@ -2,7 +2,7 @@ import MovieCardComponent from "./MovieCard";
 
 function TitlePanelComponent({ MovieTitleList }: { MovieTitleList: any[] }) {
     const prepareTitleCardTemplate = () => {
-        return MovieTitleList.map((MovieDetails, index) => {
+        return MovieTitleList.map((MovieDetails) => {
             console.log(MovieDetails);
             return (
                 MovieDetails &&
