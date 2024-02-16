@@ -1,9 +1,9 @@
 
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css'
 import HeaderComponent from './components/HeaderComponent'
 import LeftPanelComponent from './components/LeftPanelComponent';
-import { fetchGenres, fetchAllTitle } from './services/ProductService';
+import { fetchGenres, fetchAllTitle } from './services/ProductService'
 import TitlePanelComponent from './components/TitlePannelComponent';
 import UseStateComponent from './hooks-example/UseState';
 import UseEffectComponent from './hooks-example/UseEffect';
