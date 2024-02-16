@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 import './App.css'
-import Header from './components/Header'
+import HeaderComponent from './components/Header'
 import LeftPanelComponent from './components/LeftPanelComponent';
 import { fetchGenres, fetchAllTitle } from './services/ProductService';
 import TitlePanelComponent from './components/TitlePannelComponent';
@@ -60,7 +60,7 @@ function App() {
     <>
       <Router>
         <div className="sticky-header">
-          <Header></Header>
+          <HeaderComponent></HeaderComponent>
         </div>
         <div className="d-flex text-white full-height">
 

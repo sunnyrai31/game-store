@@ -1,12 +1,13 @@
+import React from "react";
 import MovieCardComponent from "./MovieCard";
 
 function TitlePanelComponent({ MovieTitleList }: { MovieTitleList: any[] }) {
     const prepareTitleCardTemplate = () => {
-        return MovieTitleList.map((MovieDetails) => {
+        return MovieTitleList.map((MovieDetails, index) => {
             console.log(MovieDetails);
             return (
                 MovieDetails &&
-                <MovieCardComponent MovieDetails={MovieDetails}></MovieCardComponent>
+                <MovieCardComponent key={index} MovieDetails={MovieDetails}></MovieCardComponent>
             )
         })
     }

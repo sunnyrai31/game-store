@@ -1,4 +1,4 @@
-import { Fragment, ReactNode } from "react"
+import React, { Fragment, ReactNode } from "react"
 
 interface alertProps {
     type: string

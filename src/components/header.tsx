@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-function Header() {
+function HeaderComponent() {
   const [selectedValue, setSelectedValue] = useState('/useState');
   const navigate = useNavigate();
 
@@ -72,5 +72,5 @@ function Header() {
     </div >
   );
 }
-export default Header;
+export default HeaderComponent;
 
