@@ -1,4 +1,4 @@
-import { useReducer } from 'react'
+import React, { useReducer } from 'react'
 
 const UseReducerComponent = () => {
     const myreducer = (state: any, action: any) => {
