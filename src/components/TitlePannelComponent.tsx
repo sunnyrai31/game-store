@@ -1,4 +1,3 @@
-import React from "react";
 import MovieCardComponent from "./MovieCard";
 
 function TitlePanelComponent({ MovieTitleList }: { MovieTitleList: any[] }) {
