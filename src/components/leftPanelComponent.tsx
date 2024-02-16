@@ -1,3 +1,4 @@
+import React from 'react';
 function LeftPanelComponent({ genres }: { genres: any[] }) {
     const prepareGenres = () => {
         return genres.map((item, index) => {

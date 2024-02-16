@@ -1,5 +1,5 @@
-import { useContext } from 'react'
-import MyContext from './context/MyContext';
+import React, { useContext } from 'react'
+import MyContext from "./context/MyContext";
 
 const UseContextComponet = () => {
     const data = useContext(MyContext);

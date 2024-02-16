@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import React, { Fragment } from "react";
 
 function MovieCardComponent({ MovieDetails }: { MovieDetails: any }) {
     const prepareMovieCardTemplate = () => {
