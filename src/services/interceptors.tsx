@@ -1,6 +1,6 @@
 // axiosInstance.js
 import axios from 'axios';
-import { REACT_APP_MOVIE_STORE_BASE_URL } from './endpoint';
+import { REACT_APP_MOVIE_STORE_BASE_URL } from './Endpoint';
 
 const axiosInstance = axios.create({
     baseURL: REACT_APP_MOVIE_STORE_BASE_URL

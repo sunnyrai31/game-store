@@ -4,7 +4,7 @@ function Header() {
   const [selectedValue, setSelectedValue] = useState('/useState');
   const navigate = useNavigate();
 
-  const handleSelectChange = (event) => {
+  const handleSelectChange = (event: any) => {
     setSelectedValue(event.target.value);
     navigate(event.target.value);
   };

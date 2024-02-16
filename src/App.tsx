@@ -1,9 +1,9 @@
 
 import React, { useEffect, useState } from 'react';
 import './App.css'
-import Header from './components/header'
-import LeftPanelComponent from './components/leftPanelComponent';
-import { fetchGenres, fetchAllTitle } from './services/productService';
+import Header from './components/Header'
+import LeftPanelComponent from './components/LeftPanelComponent';
+import { fetchGenres, fetchAllTitle } from './services/ProductService';
 import TitlePanelComponent from './components/TitlePannelComponent';
 import UseStateComponent from './hooks-example/UseState';
 import UseEffectComponent from './hooks-example/UseEffect';
@@ -15,7 +15,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   const [genres, setGenres] = useState([]);
   const [MovieTitle, setMovieTitle] = useState([]);
-  const [extactMatch, setExactMatch] = useState(true);
   useEffect(() => {
     const fetchGenresData = async () => {
       try {
