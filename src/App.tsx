@@ -5,11 +5,11 @@ import Header from './components/header'
 import LeftPanelComponent from './components/leftPanelComponent';
 import { fetchGenres, fetchAllTitle } from './services/productService';
 import TitlePanelComponent from './components/TitlePannelComponent';
-import UseStateComponent from './hooks-example/UseState';
-import UseEffectComponent from './hooks-example/UseEffect';
-import UseReducerComponent from './hooks-example/UseReducer';
-import UseContextComponet from './hooks-example/UseContext';
-import MyContext from './hooks-example/context/MyContext';
+// import UseStateComponent from './hooks-example/UseState';
+// import UseEffectComponent from './hooks-example/UseEffect';
+// import UseReducerComponent from './hooks-example/UseReducer';
+// import UseContextComponet from './hooks-example/UseContext';
+// import MyContext from './hooks-example/context/MyContext';
 
 function App() {
   const [genres, setGenres] = useState([]);
@@ -50,11 +50,11 @@ function App() {
     };
   }, [fetchGenres, fetchAllTitle]); // The empty dependency array ensures that the effect runs once when the component mounts
 
-  const defaultContextInfo2 = {
-    author: 'Sunny Rai 2',
-    address: 'Bangalore 2',
-    ph: '*****59'
-  }
+  // const defaultContextInfo2 = {
+  //   author: 'Sunny Rai 2',
+  //   address: 'Bangalore 2',
+  //   ph: '*****59'
+  // }
   return (
     <>
       <div className="sticky-header">
