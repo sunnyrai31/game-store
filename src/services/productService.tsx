@@ -1,5 +1,5 @@
-import axiosInstance from './interceptors';
-import { ENDPOINTS, COMMON_HEADERS } from './endpoint';
+import axiosInstance from './Interceptors';
+import { ENDPOINTS, COMMON_HEADERS } from './Endpoint';
 import { AxiosResponse } from 'axios';
 
 export const fetchGenres = async (): Promise<any> => {
